@@ -15,7 +15,7 @@ export default function SectionInfo(){
 
     return(
         <div className='container-info'>
-            <div className='col-info-left'>
+            <div className='col-info-left' data-aos="fade-right">
                 <div className='col-img-left'>
                     <img src={logo} />
                 </div>
