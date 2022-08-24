@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
-export default function Home(){
+export default function SectionHome(){
 
     useEffect(() =>{
         Aos.init({ duration: 2000})
@@ -20,7 +20,6 @@ export default function Home(){
             <div className='form-home'>
                 <form data-aos="fade-right">
                     <h2>AGENDAR HORÁRIO</h2>
-                    <button>VERIFICAR DISPONIBILIDADE</button>
                     <button>REALIZAR AGENDAMENTO</button>
                 </form>
             </div>

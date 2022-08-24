@@ -3,6 +3,9 @@ import firebase from '../../firebaseConnection';
 import { useState,useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaMapMarker } from "react-icons/fa";
 
 
 export default function SectionContato(){
@@ -42,9 +45,9 @@ export default function SectionContato(){
             </div>
             <div className='text-contato'>
                 <h2>CONTATO</h2>
-                <p>Rua Lorem Ipsum</p>
-                <p>(81)99999-9999</p>
-                <p>@loremipsum</p>
+                <p><FaMapMarker className='icon'/>Rua Lorem Ipsum</p>
+                <p><FaWhatsapp className='icon'/>(81)99999-9999</p>
+                <p><FaInstagram className='icon'/>@loremipsum</p>
             </div>
         </div>
     );

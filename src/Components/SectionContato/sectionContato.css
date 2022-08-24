@@ -7,11 +7,6 @@
     text-align: center;
 }
 
-.text-contato h2{
-    font-weight: 100;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
 
 .card-services{
     display: flex;
@@ -25,6 +20,19 @@
     height: 100%;
 }
 
+.main-contato form{
+    border-radius: 2px;
+}
+
+.main-contato input{
+    margin-top: 10px;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
 .text-contato{
     display: flex;
     flex-direction: column;
@@ -35,7 +43,19 @@
 }
 
 .text-contato p{
+    display: flex;
+    align-items: center;
     margin-top: 20px;
+}
+
+.text-contato h2{
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.icon{
+    margin-right: 4px;
 }
 
 

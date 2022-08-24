@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
 
-export default function About(){
+export default function SectionAbout(){
 
     useEffect(() =>{
         Aos.init({ duration: 2000})
