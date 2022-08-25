@@ -21,11 +21,30 @@
 }
 
 .main-contato form{
-    border-radius: 2px;
+    background-color: black;
 }
 
 .main-contato input{
     margin-top: 10px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    background-color: black;
+}
+
+.main-contato textarea{
+    background-color: black;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.main-contato a{
+    border: 1px solid #FFF;
+}
+
+.main-contato a:hover{
+    background-color: #FFF;
+    color: black;
+    transition: 0.3s all;
 }
 
 textarea:focus, input:focus {
@@ -42,21 +61,21 @@ textarea:focus, input:focus {
     height: 100%;
 }
 
-.text-contato p{
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.text-contato h2{
-    margin-top: 20px;
+.text-contato h3{
     font-weight: 100;
-    font-size: 35px;
+    font-size: 25px;
+    margin-top: 35px;
+    color: #990033;
+    text-align: start;
+    width: 250px;
 }
 
-.icon{
-    margin-right: 4px;
+.text-contato p{
+    width: 250px;
+    text-align: start;
+    font-size: 13px;
 }
+
 
 
 
@@ -79,5 +98,12 @@ textarea:focus, input:focus {
         width: 100%;
         justify-content: center;
         align-items: center;
+    }
+
+    .text-contato h3{
+        text-align: center;
+    }
+    .text-contato p{
+        text-align: center;
     }
 }

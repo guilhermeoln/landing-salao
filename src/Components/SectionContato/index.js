@@ -3,9 +3,6 @@ import firebase from '../../firebaseConnection';
 import { useState,useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { FaWhatsapp } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaMapMarker } from "react-icons/fa";
 
 
 export default function SectionContato(){
@@ -33,7 +30,7 @@ export default function SectionContato(){
         <div className="container-contato">
             <div className='main-contato'>
             <form data-aos="fade-right">
-                    <h2>TIRE SUA DÚVIDA</h2>
+                    <h2>ENTRE EM CONTATO</h2>
                     <input type='text' value={nome} placeholder='NOME' onChange={(e) => setNome(e.target.value)}/>
                     <textarea placeholder='MENSAGEM' value={mensagem} onChange={(e) => setMensagem(e.target.value)}>
 
@@ -44,10 +41,13 @@ export default function SectionContato(){
             </form>
             </div>
             <div className='text-contato'>
-                <h2>CONTATO</h2>
-                <p><FaMapMarker className='icon'/>Rua Lorem Ipsum</p>
-                <p><FaWhatsapp className='icon'/>(81)99999-9999</p>
-                <p><FaInstagram className='icon'/>@loremipsum</p>
+                <h3>ENDEREÇO</h3>
+                <p>Rua Lorem Ipsum, 504</p>
+                <h3>CONTATOS</h3>
+                <p>WhatsApp: (81)9999-9999</p>
+                <h3>HORÁRIOS</h3>
+                <p>- Segunda a Sexta: 05:00 às 18:00h</p>
+                <p>- Sábado: 09:00 às 12:00h</p>
             </div>
         </div>
     );
