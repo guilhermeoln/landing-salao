@@ -36,7 +36,7 @@ export default function SectionContato(){
 
                     </textarea>
                     <a href={`https://wa.me/5581998059073?text=${mensagem}`} target="_blank" onClick={ salvarInfo }>
-                        ENVIAR MENSAGEM
+                        ENVIAR
                     </a>
             </form>
             </div>

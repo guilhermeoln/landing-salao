@@ -29,23 +29,24 @@
     border: 1px solid #FFF;
     color: #FFF;
     background-color: black;
+    width: 300px;
+    height: 40px;
 }
 
 .main-contato textarea{
     background-color: black;
+    width: 300px;
+    height: 80px;
+    padding-top: 4px;
     border: 1px solid #FFF;
     color: #FFF;
 }
 
 .main-contato a{
-    border: 1px solid #FFF;
+    width: 100px;
+    background-color: #990033;
 }
 
-.main-contato a:hover{
-    background-color: #FFF;
-    color: black;
-    transition: 0.3s all;
-}
 
 textarea:focus, input:focus {
     box-shadow: 0 0 0 0;

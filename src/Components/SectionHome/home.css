@@ -13,7 +13,7 @@ section{
     justify-content: center;
     align-items: center;
     color: #FFF;
-    height: 400px;
+    height: 50vh;
 }
 
 .text-home p{
@@ -31,7 +31,7 @@ section{
     width: 50%;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    height: 50vh;
 }
 
 .form-home h2{
@@ -110,7 +110,7 @@ textarea{
     }
 
     .text-home h1{
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .form-home{
